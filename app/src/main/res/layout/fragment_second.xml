@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:id="@+id/second_fragment"
+    android:background="@color/teal_200">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="440dp"
+        android:id="@+id/btn_next2"
+        android:text="Next"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Second Fragment"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/second_text_view"
+        android:textSize="36sp"/>
+
+
+
+</FrameLayout>
